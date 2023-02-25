@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface MarsApiService {
 
-    @GET
+    @GET("photos")
     suspend fun getPhotos():List<MarsPhoto>
 }
